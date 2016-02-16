@@ -1,0 +1,24 @@
+application: php-p3-1211
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+- url: /
+  script: main.php
+  
+- url: /busreis
+  script: busreis.php
+
+- url: /project
+  script: project.php
+
+- url: /kerstboom
+  script: kerstboom.php
+  
+  
