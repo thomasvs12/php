@@ -39,4 +39,13 @@ handlers:
   
 - url: /tafel1
   script: tafel1.php
+
+- url: /functions
+  script: functions.php
+
+- url: /projectlogin
+  script: projectlogin.php
+
+
+  
   

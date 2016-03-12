@@ -3,7 +3,7 @@
 body{
 text-align: center;
 font-family:Arial;
-background-image: url("naamloos.png.jpg");
+background-image: url("naamloos.jpg.png");
 
 }
 h3 {
@@ -18,6 +18,8 @@ h3 {
 
 
 <?php
+
+
 	echo "<h3>Tafel 1 tot met 10</h3>";
 		
 	$tafelvan1 ;
@@ -27,6 +29,9 @@ h3 {
 		echo "<br><button onclick='maakTafel($i)' type='button'>tafel van ".$i."!</button>";
 	}
 ?>
+
+
+
 
 <script>
 	function maakTafel(tafel) {
