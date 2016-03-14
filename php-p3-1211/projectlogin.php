@@ -1,10 +1,3 @@
-<?php
-include ('login.php'); // Include Login Script
-if ((isset ( $_SESSION ['username'] ) != '')) {
-	header ( 'Location: home.php' );
-}
-?>
-
 <!doctype html>
 <html>
 <head>
@@ -18,7 +11,12 @@ if ((isset ( $_SESSION ['username'] ) != '')) {
 	<div class="loginBox">
 		<h3>Login Form</h3>
 		<br>
-		<br>
+		<?php
+		if (isset($_GET["error"])) {
+			echo "LeerlingID en of Wachtwoord is fout" ;
+		}
+		?>
+		<br> 
 		<form method="post" action="check.php">
 			<label>LeerlingID:</label><br> <input type="text" name="username"
 				placeholder="username" /><br>
