@@ -32,6 +32,7 @@ h3 {
 
 <?php
 	if (isset($_GET["id"])) {
+		echo "Welkom leerling!!" ;
 		echo "<br><h3>Tafel 1 tot met 10</h3>";
 			
 		$tafelvan1 ;

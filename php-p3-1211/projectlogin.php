@@ -13,7 +13,7 @@
 		<br>
 		<?php
 		if (isset($_GET["error"])) {
-			echo "LeerlingID en of Wachtwoord is fout" ;
+			echo "<p style = 'color: RED ;'>LeerlingID en of Wachtwoord is fout</p>" ;
 		}
 		?>
 		<br> 
