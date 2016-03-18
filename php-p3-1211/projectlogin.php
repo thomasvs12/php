@@ -12,6 +12,7 @@
 		<h3>Login Form</h3>
 		<br>
 		<?php
+		include ("/includes/nav/nav.php");
 		if (isset($_GET["error"])) {
 			echo "<p style = 'color: RED ;'>LeerlingID en of Wachtwoord is fout</p>" ;
 		}

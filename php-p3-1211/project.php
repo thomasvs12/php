@@ -31,6 +31,7 @@ h3 {
 
 
 <?php
+	include ("/includes/nav/nav.php");
 	if (isset($_GET["id"])) {
 		echo "Welkom leerling!!" ;
 		echo "<br><h3>Tafel 1 tot met 10</h3>";
