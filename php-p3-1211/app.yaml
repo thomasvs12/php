@@ -20,32 +20,36 @@ handlers:
   script: \1
   
 - url: /
-  script: main.php
+  script: /main.php
   
 - url: /busreis
-  script: busreis.php
+  script: /busreis.php
 
 - url: /project
-  script: project.php
+  script: /project.php
 
 - url: /kerstboom
-  script: kerstboom.php
+  script: /kerstboom.php
   
 - url: /zwemclub
-  script: zwemclub.php
+  script: /zwemclub.php
   
 - url: /kapperzaak
-  script: kapperzaak.php
+  script: /kapperzaak.php
   
 - url: /tafel1
-  script: tafel1.php
+  script: /tafel1.php
 
 - url: /functions
-  script: functions.php
+  script: /functions.php
 
 - url: /projectlogin
-  script: projectlogin.php
+  script: /projectlogin.php
 
-
+- url: /includes/nav/nav.php
+  script: /includes/nav/nav.php
+  
+- url: /webshop
+  script: /webshop.php
   
   
