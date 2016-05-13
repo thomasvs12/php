@@ -52,4 +52,7 @@ handlers:
 - url: /webshop
   script: /webshop.php
   
+- url: /dynamicwebsite
+  script: /dynamicwebsite.php
+  
   

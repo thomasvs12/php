@@ -83,7 +83,6 @@ div.autokader {
     background: -o-linear-gradient(left, rgba(127, 127, 127, 0.5), rgba(127, 127, 127, 1)); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(left, rgba(127, 127, 127, 0.5), rgba(127, 127, 127, 1)); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to left, rgba(127, 127, 127, 0.5), rgba(127, 127, 127, 1)); /* Standard syntax (must be last) */
-    cursor: pointer;
 
 }
 div.autokader img {
@@ -107,35 +106,7 @@ div.autokader p.prijs {
     text-align: right;
     margin-right: 1em;
 }
-p#url {
-	display: none;
-}
-#iframe-mask {
-	position: fixed;
-	left: 0px;
-	top: 0px;
-	width: 100vw;
-	height: 100vh;
-	background-color: rgba(0, 0, 0, 0.9);
-	z-index: 6;
-	display: none;
-}
-#mask-exit {
-	z-index: 7;
-	position: fixed;
-	right: 75px;
-	top: 25px;
-	width: 100px;
-	height: 100px;
-	cursor: pointer;
-}
-#iframe {
-	text-align: center;
-	position: fixed;
-	left: 25vw;
-	top: 20vh;
-	z-index: 7;
-}
+
 div#autoselectie {
     max-width: 1200px;
 }</style>
